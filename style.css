@@ -5,6 +5,83 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #014E56;
+    /* margin-left: 165px; */
+   padding-top: 77px;
+   
+
+
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    align-items: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.header {
+    background: #014E56;
+
+}
+
+.btn {
+    width: 153px;
+    height: 48px;
+    border-radius: 30px;
+    background: #014E56;
+    border: 3px solid white;
+    color: white;
+    /* margin-right: 165px; */
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
+
+.btn:active {
+    background-color: black;
+    color: white;
+}
+
+.font_git {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.font_git p {
+    width: 600px;
+    /* margin-left: 545px; */
+    padding-right: 250px;
+    color: white;
+    font-size: 18px;
+}
+
+.font_git h2 {
+    /* margin-left: 165px; */
+
+    font-size: 64px;
+    color: white;
+    padding-left: 165px;
+    /* margin-bottom: 40px; */
+
+}
 body {
     max-width: 1500px;
     margin: 0 auto;
