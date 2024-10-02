@@ -86,7 +86,61 @@ body {
     max-width: 1500px;
     margin: 0 auto;
 }
+section{
+  background: #004047;
+  padding-top: 71px;
+  padding-bottom: 148px;
+  color: white;
+  text-align: center;
+  font-family: 'Livvic',sans-serif;
+}
+.section-title{
+  font-size: 48px;
+  line-height: 48px;
+}
 
+.section-card-title{
+  color: #79C8C7;
+  font-weight: 700;
+  font-size: 18px;
+  height: 28px;
+  margin-top: 23px;
+}
+
+.section-description{
+  font-size: 15px;
+  font-style: italic;
+}
+
+.developers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 69px;
+}
+
+.dev-card{
+  background: #012F34;
+  padding: 44px 87px;
+}
+
+.section-plus{
+  position: absolute;
+  padding-top: 13px;
+}
+
+.plus1{
+  left: 400px;
+}
+
+.plus2{
+  left: 730px;
+}
+
+.plus3{
+  right: 400px;
+}
 .footer {
     width: 100%;
     padding: 20px;
